@@ -72,10 +72,8 @@ All of the data is contained inside of the `src/data` folder and is imported ins
 The following tips may help you as you're working on this project:
 
 - Remember that you will need to import React Router-specific elements by importing from `"react-router-dom"`.
-- Remember that `a` elements should not be used with React Router. Instead, use [`Link` components](https://reactrouter.com/web/api/Link).
+- Remember that `a` elements should not be used with React Router. Instead, use [`Link` components](https://reactrouter.com/en/6.21.1/components/link).
 - The `/pets` page allows for a _nested view._ The sidebar with the links to see all cats and dogs should remain on the page while the inner piece of the page should change depending on the route.
-- Use [the documentation](https://reactrouter.com/docs/en/v6/getting-started/tutorial)
-- Look into [wildcards](https://reactrouter.com/docs/en/v6/upgrading/v5#note-on-route-path-patterns) for the nested cat and dog routes
 
 ---
 
